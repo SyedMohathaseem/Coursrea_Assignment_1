@@ -5,12 +5,11 @@ body{
 h2{
     text-align: center;
     position: relative;
-    /* top: 200px; */
 }
 .frame{
     display: flex;
     position: relative;
-    left: 75px;
+    left: 135px;
     font-family: sans-serif;
     margin-top: 60px;
 }
@@ -19,16 +18,10 @@ h2{
     width: 320px;
     background-color: #b5b5b1;
     position: relative;
-    /* top: 200px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: 2px solid black;
     padding: 10px;
-    left: 75px;
 }
 .box1 p{
-    margin-top: 35px;
     color: black;
 }
 .frame .box2{
@@ -36,34 +29,22 @@ h2{
     width: 320px;
     background-color: #b5b5b1;
     position: relative;
-    /* top: 200px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: 2px solid black;
     padding: 10px;
-    
+    left: 35px;
 }
-.box2 p{
-    margin-top: 35px;
-    color: black;
 
-}
 .frame .box3{
     height: 120px;
     width: 320px;
     background-color: #b5b5b1;
     position: relative;
-    /* top: 200px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: 2px solid black;
     padding: 10px;
-    right: 75px;
+    left: 70px;
 }
 .box3 p{
-    margin-top: 35px;
+
     color: black;
 
 }
@@ -71,47 +52,76 @@ h2{
    background-color: pink;
    height: 25px;
    width: 100px;
-   display: flex;
+   float: right;
+    display: flex;
    justify-content: center;
    align-items: center;
-   position: relative;
-   /* top: 200px; */
-   right: 29px;
+    position: relative; 
+    bottom: 28px;
+   left: 11px;
    border: 2px solid black;
-   border-right: none;
+   border-right: none; 
    font-weight: 700;
     font-family: sans-serif;
 }
 .inside2{
     background-color: #d14a41;
-    height: 25px;
-    width: 100px;
+   height: 25px;
+   width: 100px;
+   float: right;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    /* top: 200px; */
-    right: 104px;
-    border: 2px solid black;
-    border-right: none;
-    font-weight: 700;
+   justify-content: center;
+   align-items: center;
+    position: relative; 
+    bottom: 28px;
+   left: 11px;
+   border: 2px solid black;
+   border-right: none; 
+   font-weight: 700;
     font-family: sans-serif;
     color: white;
  }
  .inside3{
-    background-color:#f2f199;
+    background-color: #f2f199;
     height: 25px;
     width: 100px;
-    display: flex;
+    float: right;
+     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    /* top: 200px; */
-    right: 179px;
+     position: relative; 
+     bottom: 28px;
+    left: 11px;
     border: 2px solid black;
-    border-right: none;
+    border-right: none; 
     font-weight: 700;
-    font-family: sans-serif;
+     font-family: sans-serif;
+     color: white;
  }
- 
+
+    /*tablet version*/
+    @media (min-width: 768px) and (max-width: 991px) {
+        .colmn-md-6 {
+            float: left;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .colmn-md-12 {
+            float: left;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    /*mobile version*/
+    @media (max-width: 767px) {
+        .colmn-sm-12 {
+            float: left;
+            width: 100%;
+        }
+    }
+   
  

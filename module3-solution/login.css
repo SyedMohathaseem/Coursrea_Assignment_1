@@ -117,3 +117,9 @@ hr{
     left: 97px;
     top: 50px;
 }
+@media (max-width: 400px){
+    #layout{
+        width: 100%;
+    }
+    
+}

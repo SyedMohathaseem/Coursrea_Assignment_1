@@ -1,0 +1,119 @@
+#layout{
+    background-color: white;
+    
+}
+#icon{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    position: relative;
+    left: 15px;
+    top: 3px;
+    cursor: pointer;
+}
+#heading{
+    font-size: 25px;
+    color: #3b4257;
+    font-weight: 700;
+}
+#text{
+    position: relative;
+    bottom: 10px;
+}
+#email,#password{
+    height: 50px;
+    width: 145%;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    bottom: 10px;
+    padding: 15px;
+    outline: none;
+    background-color: whitesmoke;
+}
+#checkbox{
+    height: 15px;
+    width: 35px;
+}
+#save{
+    position: relative;
+    bottom: 2px;
+    font-size: 16px;
+}
+#forget{
+    position: relative;
+    bottom: 2px;
+    left: 120px;
+    color: red;
+    font-size: 16px;
+}
+#signin{
+    height: 50px;
+    width: 130%;
+    border-radius: 30px;
+    position: relative;
+    left: 20px;
+    top: 18px;
+    border: none;
+    background-color: #242937;
+    color: white;
+    font-size: 18px;
+}
+hr{
+    color: black;
+     position: relative;
+     top: 22px;
+    width: 145%;
+    height: 3px;
+    background-color: black;
+}
+#line{
+    background-color: white;
+    position: relative;
+    bottom: 7px;
+    left: 130px;
+    color: black;
+    font-weight: 500;
+}
+#google{
+    height: 50px;
+    width: 145%;
+    margin-top: 15px;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    bottom: 10px;
+    padding: 15px;
+    outline: none;
+    background-color: whitesmoke;
+}
+#apple{
+    height: 50px;
+    width: 145%;
+    margin-top: 15px;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    bottom: 10px;
+    padding: 15px;
+    outline: none;
+    background-color: whitesmoke;
+}
+#icon-g{
+    margin-right: 5px;
+    font-size: 18px;
+}
+#icon-a{
+    margin-right: 5px;
+    font-size: 22px;
+}
+#link{
+    position: relative;
+    left: 97px;
+    top: 50px;
+}
